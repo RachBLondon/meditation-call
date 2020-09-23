@@ -1,0 +1,66 @@
+.App {
+  padding: 100px 0;
+  background: #66ccff;
+  background: -webkit-linear-gradient(to bottom, #6dd3e7 20%, #fff 70%);
+  background: linear-gradient(to bottom, #6dd3e7 20%, #fff 70%);
+  background: -moz-linear-gradient(to bottom, #6dd3e7 20%, #fff 70%);
+  height: 100vh;
+  width: 100vw;
+  z-index: -2;
+}
+/* 
+.title {
+  font-size: 100px;
+  z-index: 2;
+  font-weight: 900;
+  position: relative;
+} */
+
+.title {
+  font-size: 100px;
+  z-index: 10000;
+  font-weight: 900;
+  /* animation: MoveUpDown 5s ease-in-out infinite; */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* @keyframes MoveUpDown {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 7px;
+  }
+} */
+
+.cloud-container {
+  height: 50px;
+  width: 159px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  z-index: -1;
+}
+
+.cloud-1 {
+  height: 69px;
+  width: 78px;
+  background-color: white;
+  position: absolute;
+  top: -31px;
+  border-radius: 50px;
+  left: 22px;
+  z-index: -1;
+}
+
+.cloud-2 {
+  height: 51px;
+  width: 70px;
+  background-color: white;
+  position: absolute;
+  top: -23px;
+  border-radius: 50px;
+  left: 62px;
+}

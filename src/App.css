@@ -20,10 +20,10 @@
   font-size: 100px;
   z-index: 10000;
   font-weight: 900;
-  /* animation: MoveUpDown 5s ease-in-out infinite; */
-  position: absolute;
-  left: 0;
-  top: 0;
+  position: relative;
+}
+.flag-dropdown {
+  left: 400px;
 }
 
 /* @keyframes MoveUpDown {
@@ -34,6 +34,9 @@
     top: 7px;
   }
 } */
+.react-tel-input {
+  z-index: 2;
+}
 
 .cloud-container {
   height: 50px;
